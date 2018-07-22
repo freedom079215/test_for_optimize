@@ -1,0 +1,1672 @@
+@import url("https://fonts.googleapis.com/earlyaccess/notosanstc.css");
+body, html {
+    height: 100%
+}
+body {
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Noto Sans TC', sans-serif;
+    background-color: #000;
+}
+
+.logo1 {
+    background:url("../images/desktop/TS-Logo.png");
+    width:175px;
+    height:62px;
+    position:fixed;
+    top:20px;
+    left:20px;
+    cursor:pointer;
+}
+
+.logo2 {
+    background: url("../images/desktop/Cathay-Logo.png");
+    width: 219px;
+    height: 62px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+.logo3 {
+    background: url("../images/desktop/AM-logo.png");
+    width: 150px;
+    height: 55px;
+    position: fixed;
+    top: 90%;
+    right: 20px;
+    cursor: pointer;
+}
+
+.contBtn {
+    background-position: top;
+    cursor: pointer;
+}
+.contBtn:hover {
+    background-position: bottom;
+}
+
+.cardMain {
+    position: relative;
+    width: 100%;
+    background: -webkit-linear-gradient(#020b0b,#626a6a);
+    background: -o-linear-gradient(#020b0b,#626a6a);
+    background: -moz-linear-gradient(#020b0b,#626a6a);
+    background: linear-gradient(#020b0b,#626a6a);
+    display: none;
+    z-index: 5;
+}
+.cardMainCont {
+    position: relative;
+    width: 1180px;
+    height: 2240px;
+    background: url("../images/desktop/contents/c1.png");
+    left: 54%;
+    transform: translate(-50%);
+}
+.linkBtn {
+    position: absolute;
+    width: 180px;
+    height: 60px;
+    left: 960px;
+    top: 80px;
+    cursor: pointer;
+}
+.contLink2 {
+    position: absolute;
+    width: 256px;
+    height: 46px;
+    left: 50%;
+    top: 620px;
+    cursor: pointer;
+    transform: translate(-50%);
+    background: url("../images/desktop/btn-sale-desk.png");
+    background-position:top;
+}
+    .contLink2:hover {
+        background-position: bottom;
+    }
+.contLink5-2-1 {
+    position: absolute;
+    width: 600px;
+    height: 20px;
+    left: 50%;
+    top: 630px;
+    cursor: pointer;
+    transform: translate(-50%);
+}
+
+.contLink5-2-2 {
+    position: absolute;
+    width: 256px;
+    height: 20px;
+    left: 50%;
+    top: 658px;
+    cursor: pointer;
+    transform: translate(-50%);
+}
+.contLink5-3 {
+    position: absolute;
+    width: 600px;
+    height: 20px;
+    left: 50%;
+    top: 665px;
+    cursor: pointer;
+    transform: translate(-50%);
+}
+.contLink6 {
+    position: absolute;
+    width: 256px;
+    height: 46px;
+    left: 50%;
+    top: 730px;
+    cursor: pointer;
+    transform: translate(-50%);
+    background: url("../images/desktop/btn-ticket.png");
+    background-position: top;
+}
+
+    .contLink6:hover {
+        background-position: bottom;
+    }
+.contLink6-1 {
+    position: absolute;
+    width: 500px;
+    height: 20px;
+    left: 60px;
+    top: 1532px;
+    cursor: pointer;
+}
+.contLink7-5-1 {
+    position: absolute;
+    width: 600px;
+    height: 20px;
+    left: 50%;
+    top: 514px;
+    cursor: pointer;
+    transform: translate(-50%);
+}
+
+.contLink7-5-2 {
+    position: absolute;
+    width: 600px;
+    height: 20px;
+    left: 50%;
+    top: 724px;
+    cursor: pointer;
+    transform: translate(-50%);
+}
+.contLink7-6 {
+    position: absolute;
+    width: 430px;
+    height: 20px;
+    left: 50%;
+    top: 582px;
+    cursor: pointer;
+    transform: translate(-50%);
+}
+.contLink8 {
+    position: absolute;
+    width: 225px;
+    height: 46px;
+    left: 50%;
+    top: 2218px;
+    cursor: pointer;
+    transform: translate(-50%);
+    background: url("../images/desktop/btn-service.png");
+    background-position: top;
+}
+
+.contLink8:hover {
+    background-position: bottom;
+}
+.boxClose {
+    position: absolute;
+    width: 70px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: -webkit-linear-gradient(#978d6c,#948a69);
+    background: -o-linear-gradient(#978d6c,#948a69);
+    background: -moz-linear-gradient(#978d6c,#948a69);
+    background: linear-gradient(#978d6c,#948a69);
+    cursor: pointer;
+}
+
+.closeArrow {
+    position:fixed;
+    background-image: url("../images/desktop/arrow-left.png");
+    width: 50px;
+    height: 40px;
+    left: 10px;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+.cardContMain2 {
+    position: absolute;
+    width: 100%;
+    background: -webkit-linear-gradient(#020b0b,#626a6a);
+    background: -o-linear-gradient(#020b0b,#626a6a);
+    background: -moz-linear-gradient(#020b0b,#626a6a);
+    background: linear-gradient(#020b0b,#626a6a);
+    display: none;
+}
+
+.cardCont2 {
+    position: relative;
+    width: 1180px;
+    height: 1177px;
+    background: url("../images/desktop/contents/c2.png");
+    left: 54%;
+    transform: translate(-50%);
+}
+.cardContMain3 {
+    position: absolute;
+    width: 100%;
+    background: -webkit-linear-gradient(#020b0b,#626a6a);
+    background: -o-linear-gradient(#020b0b,#626a6a);
+    background: -moz-linear-gradient(#020b0b,#626a6a);
+    background: linear-gradient(#020b0b,#626a6a);
+    display: none;
+}
+.cardCont3 {
+    position: relative;
+    width: 1180px;
+    height: 2100px;
+    background: url("../images/desktop/contents/c3.png");
+    left: 54%;
+    transform: translate(-50%);
+}
+.cardContMain4 {
+    position: absolute;
+    width: 100%;
+    background: -webkit-linear-gradient(#020b0b,#626a6a);
+    background: -o-linear-gradient(#020b0b,#626a6a);
+    background: -moz-linear-gradient(#020b0b,#626a6a);
+    background: linear-gradient(#020b0b,#626a6a);
+    display: none;
+}
+
+
+.cardCont4 {
+    position: relative;
+    width: 1053px;
+    height: 1114px;
+    background: url("../images/desktop/contents/c4.png");
+    left: 54%;
+    transform: translate(-50%);
+}
+
+.cardContMain5-1 {
+    position: absolute;
+    width: 100%;
+    background: -webkit-linear-gradient(#020b0b,#626a6a);
+    background: -o-linear-gradient(#020b0b,#626a6a);
+    background: -moz-linear-gradient(#020b0b,#626a6a);
+    background: linear-gradient(#020b0b,#626a6a);
+    display: none;
+}
+.cardCont5-1 {
+    position: relative;
+    width: 1180px;
+    height: 2093px;
+    background: url("../images/desktop/contents/c5-1.png");
+    left: 54%;
+    transform: translate(-50%);
+}
+.cardContMain5-2 {
+    position: absolute;
+    width: 100%;
+    background: -webkit-linear-gradient(#020b0b,#626a6a);
+    background: -o-linear-gradient(#020b0b,#626a6a);
+    background: -moz-linear-gradient(#020b0b,#626a6a);
+    background: linear-gradient(#020b0b,#626a6a);
+    display: none;
+}
+
+.cardCont5-2 {
+    position: relative;
+    width: 1180px;
+    height: 2054px;
+    background: url("../images/desktop/contents/c5-2.png");
+    left: 54%;
+    transform: translate(-50%);
+}
+.cardContMain5-3 {
+    position: absolute;
+    width: 100%;
+    background: -webkit-linear-gradient(#020b0b,#626a6a);
+    background: -o-linear-gradient(#020b0b,#626a6a);
+    background: -moz-linear-gradient(#020b0b,#626a6a);
+    background: linear-gradient(#020b0b,#626a6a);
+    display: none;
+}
+
+.cardCont5-3 {
+    position: relative;
+    width: 1180px;
+    height: 1764px;
+    background: url("../images/desktop/contents/c5-3.png");
+    left: 54%;
+    transform: translate(-50%);
+}
+
+.cardContMain6 {
+    position: absolute;
+    width: 100%;
+    background: -webkit-linear-gradient(#020b0b,#626a6a);
+    background: -o-linear-gradient(#020b0b,#626a6a);
+    background: -moz-linear-gradient(#020b0b,#626a6a);
+    background: linear-gradient(#020b0b,#626a6a);
+    display: none;
+}
+
+.cardCont6 {
+    position: relative;
+    width: 1180px;
+    height: 2274px;
+    background: url("../images/desktop/contents/c6.png");
+    left: 54%;
+    transform: translate(-50%);
+}
+.cardContMain7-1 {
+    position: absolute;
+    width: 100%;
+    background: -webkit-linear-gradient(#020b0b,#626a6a);
+    background: -o-linear-gradient(#020b0b,#626a6a);
+    background: -moz-linear-gradient(#020b0b,#626a6a);
+    background: linear-gradient(#020b0b,#626a6a);
+    display: none;
+}
+
+.cardCont7-1 {
+    position: relative;
+    width: 1180px;
+    height: 1053px;
+    background: url("../images/desktop/contents/c7-1.png");
+    left: 54%;
+    transform: translate(-50%);
+}
+.cardContMain7-2 {
+    position: absolute;
+    width: 100%;
+    background: -webkit-linear-gradient(#020b0b,#626a6a);
+    background: -o-linear-gradient(#020b0b,#626a6a);
+    background: -moz-linear-gradient(#020b0b,#626a6a);
+    background: linear-gradient(#020b0b,#626a6a);
+    display: none;
+}
+
+.cardCont7-2 {
+    position: relative;
+    width: 1180px;
+    height: 1381px;
+    background: url("../images/desktop/contents/c7-2.png");
+    left: 54%;
+    transform: translate(-50%);
+}
+.cardContMain7-3 {
+    position: absolute;
+    width: 100%;
+    background: -webkit-linear-gradient(#020b0b,#626a6a);
+    background: -o-linear-gradient(#020b0b,#626a6a);
+    background: -moz-linear-gradient(#020b0b,#626a6a);
+    background: linear-gradient(#020b0b,#626a6a);
+    display: none;
+}
+
+.cardCont7-3 {
+    position: relative;
+    width: 1180px;
+    height: 1000px;
+    background: url("../images/desktop/contents/c7-3.png");
+    left: 54%;
+    transform: translate(-50%);
+}
+.cardContMain7-4 {
+    position: absolute;
+    width: 100%;
+    background: -webkit-linear-gradient(#020b0b,#626a6a);
+    background: -o-linear-gradient(#020b0b,#626a6a);
+    background: -moz-linear-gradient(#020b0b,#626a6a);
+    background: linear-gradient(#020b0b,#626a6a);
+    display: none;
+}
+
+.cardCont7-4 {
+    position: relative;
+    width: 1180px;
+    height: 1280px;
+    background: url("../images/desktop/contents/c7-4.png");
+    left: 54%;
+    transform: translate(-50%);
+}
+.cardContMain7-5 {
+    position: absolute;
+    width: 100%;
+    background: -webkit-linear-gradient(#020b0b,#626a6a);
+    background: -o-linear-gradient(#020b0b,#626a6a);
+    background: -moz-linear-gradient(#020b0b,#626a6a);
+    background: linear-gradient(#020b0b,#626a6a);
+    display: none;
+}
+
+.cardCont7-5 {
+    position: relative;
+    width: 1180px;
+    height: 1000px;
+    background: url("../images/desktop/contents/c7-5.png");
+    left: 54%;
+    transform: translate(-50%);
+}
+.cardContMain7-6 {
+    position: absolute;
+    width: 100%;
+    background: -webkit-linear-gradient(#020b0b,#626a6a);
+    background: -o-linear-gradient(#020b0b,#626a6a);
+    background: -moz-linear-gradient(#020b0b,#626a6a);
+    background: linear-gradient(#020b0b,#626a6a);
+    display: none;
+}
+
+.cardCont7-6 {
+    position: relative;
+    width: 1180px;
+    height: 1407px;
+    background: url("../images/desktop/contents/c7-6.png");
+    left: 54%;
+    transform: translate(-50%);
+}
+.cardContMain7-7 {
+    position: absolute;
+    width: 100%;
+    background: -webkit-linear-gradient(#020b0b,#626a6a);
+    background: -o-linear-gradient(#020b0b,#626a6a);
+    background: -moz-linear-gradient(#020b0b,#626a6a);
+    background: linear-gradient(#020b0b,#626a6a);
+    display: none;
+}
+
+.cardCont7-7 {
+    position: relative;
+    width: 1180px;
+    height: 1000px;
+    background: url("../images/desktop/contents/c7-7.png");
+    left: 54%;
+    transform: translate(-50%);
+}
+.cardContMain8 {
+    position: absolute;
+    width: 100%;
+    background: -webkit-linear-gradient(#020b0b,#626a6a);
+    background: -o-linear-gradient(#020b0b,#626a6a);
+    background: -moz-linear-gradient(#020b0b,#626a6a);
+    background: linear-gradient(#020b0b,#626a6a);
+    display: none;
+}
+
+.cardCont8 {
+    position: relative;
+    width: 1180px;
+    height: 3377px;
+    background: url("../images/desktop/contents/c8.png");
+    left: 54%;
+    transform: translate(-50%);
+}
+
+#section {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+}
+.maskBox {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:url("../images/bg_mesh.png");
+}
+.section1 {
+    background-image: url("../images/desktop/backgrounds/s1.jpg");
+}
+.section2 {
+    background-image: url("../images/desktop/backgrounds/s2.jpg");
+}
+.section3 {
+    background-image: url("../images/desktop/backgrounds/s3.jpg");
+}
+.section4 {
+    background-image: url("../images/desktop/backgrounds/s4.jpg");
+}
+.section6 {
+    background-image: url("../images/desktop/backgrounds/s6.jpg");
+}
+.section7 {
+    background-image: url("https://mkp.taishinbank.com.tw/TsCms/marketing/expose/WM_20180118121459164/images/desktop/backgrounds/s7.jpg");
+}
+.section8 {
+    background-image: url("../images/desktop/backgrounds/s8.jpg");
+}
+
+.cont1 {
+    position: absolute;
+    width: 765px;
+    height: 765px;
+    left: 50%;
+    top: 42%;
+    transform: translate(-50%,-50%);
+    background:url("../images/desktop/badges/airplane-title.png");
+}
+.cont1-btn1 {
+    position: absolute;
+    width: 180px;
+    height: 46px;
+    left: 50%;
+    top: 84%;
+    transform: translate(-180px);
+    background: url("../images/desktop/btn-play.png");
+    display:none;
+}
+.cont1-btn2 {
+    position: absolute;
+    width: 180px;
+    height: 46px;
+    left: 50%;
+    transform: translate(-50%);
+    top: 84%;
+    background: url("../images/desktop/btn-now.png");
+}
+
+.cont2 {
+    position: absolute;
+    width: 800px;
+    height: 336px;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%,-50%);
+    background: url("../images/desktop/badges/b2.png");
+}
+
+.cont2-btn1 {
+    position: absolute;
+    width: 180px;
+    height: 46px;
+    left: 50%;
+    top: 82%;
+    transform: translate(-180px);
+    background: url("../images/desktop/btn-more.png");
+}
+
+.cont2-btn2 {
+    position: absolute;
+    width: 180px;
+    height: 46px;
+    left: 50%;
+    top: 82%;
+    background: url("../images/desktop/btn-now.png");
+}
+
+.cont3 {
+    position: absolute;
+    width: 800px;
+    height: 331px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background: url("../images/desktop/badges/b3.png");
+}
+
+.cont3-btn1 {
+    position: absolute;
+    width: 180px;
+    height: 46px;
+    left: 50%;
+    top: 82%;
+    transform: translate(-180px);
+    background: url("../images/desktop/btn-more.png");
+}
+
+.cont3-btn2 {
+    position: absolute;
+    width: 180px;
+    height: 46px;
+    left: 50%;
+    top: 82%;
+    background: url("../images/desktop/btn-now.png");
+}
+.cont4 {
+    position: absolute;
+    width: 800px;
+    height: 310px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background: url("../images/desktop/badges/b4.png");
+}
+
+.cont4-btn1 {
+    position: absolute;
+    width: 180px;
+    height: 46px;
+    left: 50%;
+    top: 81%;
+    transform: translate(-180px);
+    background: url("../images/desktop/btn-more.png");
+}
+
+.cont4-btn2 {
+    position: absolute;
+    width: 180px;
+    height: 46px;
+    left: 50%;
+    top: 81%;
+    background: url("../images/desktop/btn-now.png");
+}
+
+.cont5-1 {
+    position: relative;
+    width: 100%;
+    height: 50%;
+    background-image: url("../images/desktop/backgrounds/s5-1.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+.cont5-text1 {
+    position: absolute;
+    width: 393px;
+    height: 44px;
+    left: 54%;
+    top: 40%;
+    background: url("../images/desktop/badges/b5-1.png");
+}
+
+.cont5-btn1 {
+    position: absolute;
+    width: 180px;
+    height: 46px;
+    left: 54%;
+    top: 56%;
+    background: url("../images/desktop/btn-now.png");
+}
+
+.cont5-2 {
+    position: relative;
+    width: 34%;
+    height: 50%;
+    background-image: url("../images/desktop/backgrounds/s5-2.jpg");
+    background-position: center center;
+    background-size: cover;
+    float: left;
+}
+.cont5-text2 {
+    position: absolute;
+    width: 248px;
+    height: 166px;
+    left: 54%;
+    bottom: 20%;
+    background: url("../images/desktop/badges/b5-2.png");
+    transform: translate(-50%);
+}
+
+.cont5-btn2 {
+    position: absolute;
+    width: 180px;
+    height: 46px;
+    left: 54%;
+    bottom: 5%;
+    background: url("../images/desktop/btn-more.png");
+    transform: translate(-50%);
+}
+.cont5-3 {
+    position: relative;
+    width: 33%;
+    height: 50%;
+    background-image: url("../images/desktop/backgrounds/s5-3.jpg");
+    background-position: center center;
+    background-size: cover;
+    float: left;
+}
+.cont5-text3 {
+    position: absolute;
+    width: 184px;
+    height: 161px;
+    left: 54%;
+    bottom: 20%;
+    background: url("../images/desktop/badges/b5-3.png");
+    transform: translate(-50%);
+}
+
+.cont5-btn3 {
+    position: absolute;
+    width: 180px;
+    height: 46px;
+    left: 54%;
+    bottom: 5%;
+    background: url("../images/desktop/btn-more.png");
+    transform: translate(-50%);
+}
+.cont5-4 {
+    position: relative;
+    width: 33%;
+    height: 50%;
+    background-image: url("../images/desktop/backgrounds/s5-4.jpg");
+    background-position: center center;
+    background-size: cover;
+    float: left;
+}
+
+.cont5-text4 {
+    position: absolute;
+    width: 185px;
+    height: 170px;
+    left: 54%;
+    bottom: 20%;
+    background: url("../images/desktop/badges/b5-4.png");
+    transform: translate(-50%);
+}
+
+.cont5-btn4 {
+    position: absolute;
+    width: 180px;
+    height: 46px;
+    left: 54%;
+    bottom: 5%;
+    background: url("../images/desktop/btn-more.png");
+    transform: translate(-50%);
+}
+
+.cont6 {
+    position: absolute;
+    width: 580px;
+    height: 408px;
+    left: 38%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background: url("../images/desktop/badges/b6.png");
+}
+
+.cont6-btn1 {
+    position: absolute;
+    width: 180px;
+    height: 46px;
+    left: 50%;
+    top: 78%;
+    transform: translate(-180px);
+    background: url("../images/desktop/btn-more.png");
+}
+
+.cont6-btn2 {
+    position: absolute;
+    width: 180px;
+    height: 46px;
+    left: 50%;
+    top: 78%;
+    background: url("../images/desktop/btn-now.png");
+}
+
+.cont7-1 {
+    position: relative;
+    width: 34%;
+    height: 50%;
+    background-image: url("../images/desktop/backgrounds/s7-1.jpg");
+    background-position: center center;
+    background-size: cover;
+    float: left;
+}
+.cont7-text1 {
+    position: absolute;
+    width: 284px;
+    height: 54px;
+    left: 10%;
+    bottom: 12%;
+    background: url("../images/desktop/badges/b7-1.png");
+}
+.cont7-click {
+    position: absolute;
+    font-size: 18px;
+    color: #b1a57e;
+    left:10%;
+    bottom:4%;
+    cursor:pointer;
+}
+
+.cont7-2 {
+    position: relative;
+    width: 33%;
+    height: 50%;
+    background-image: url("../images/desktop/backgrounds/s7-2.jpg");
+    background-position: center center;
+    background-size: cover;
+    float: left;
+}
+.cont7-text2 {
+    position: absolute;
+    width: 173px;
+    height: 51px;
+    left: 10%;
+    bottom: 12%;
+    background: url("../images/desktop/badges/b7-2.png");
+}
+.cont7-3 {
+    position: relative;
+    width: 33%;
+    height: 50%;
+    background-image: url("../images/desktop/backgrounds/s7-3.jpg");
+    background-position: center center;
+    background-size: cover;
+    float: left;
+}
+.cont7-text3 {
+    position: absolute;
+    width: 136px;
+    height: 54px;
+    left: 10%;
+    bottom: 12%;
+    background: url("../images/desktop/badges/b7-3.png");
+}
+.cont7-4 {
+    position: relative;
+    width: 25%;
+    height: 50%;
+    background-image: url("../images/desktop/backgrounds/s7-4.jpg");
+    background-position: center center;
+    background-size: cover;
+    float: left;
+}
+.cont7-text4 {
+    position: absolute;
+    width: 147px;
+    height: 22px;
+    left: 10%;
+    bottom: 12%;
+    background: url("../images/desktop/badges/b7-4.png");
+}
+.cont7-5 {
+    position: relative;
+    width: 25%;
+    height: 50%;
+    background-image: url("../images/desktop/backgrounds/s7-5.jpg");
+    background-position: center center;
+    background-size: cover;
+    float: left;
+}
+.cont7-text5 {
+    position: absolute;
+    width: 206px;
+    height: 26px;
+    left: 10%;
+    bottom: 12%;
+    background: url("../images/desktop/badges/b7-5.png");
+}
+.cont7-6 {
+    position: relative;
+    width: 25%;
+    height: 50%;
+    background-image: url("../images/desktop/backgrounds/s7-6.jpg");
+    background-position: center center;
+    background-size: cover;
+    float: left;
+}
+.cont7-text6 {
+    position: absolute;
+    width: 147px;
+    height: 50px;
+    left: 10%;
+    bottom: 12%;
+    background: url("../images/desktop/badges/b7-6.png");
+}
+
+.cont7-7 {
+    position: relative;
+    width: 25%;
+    height: 50%;
+    background-image: url("../images/desktop/backgrounds/s7-7.jpg");
+    background-position: center center;
+    background-size: cover;
+    float: left;
+}
+.cont7-text7 {
+    position: absolute;
+    width: 121px;
+    height: 22px;
+    left: 10%;
+    bottom: 12%;
+    background: url("../images/desktop/badges/b7-7.png");
+}
+
+.cont8 {
+    position: absolute;
+    width: 800px;
+    height: 307px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background: url("../images/desktop/badges/b8.png");
+}
+
+.cont8-btn1 {
+    position: absolute;
+    width: 180px;
+    height: 46px;
+    left: 50%;
+    top: 81%;
+    transform: translate(-180px);
+    background: url("../images/desktop/btn-more.png");
+}
+
+.cont8-btn2 {
+    position: absolute;
+    width: 180px;
+    height: 46px;
+    left: 50%;
+    top: 81%;
+    background: url("../images/desktop/btn-now.png");
+}
+
+.menu {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translate(0,-50%);
+}
+.menuList {
+    width: 170px;
+    height: 50px;
+    color: #a4a4a4;
+    font-size:16px;
+    text-align:right;
+    line-height:50px;
+    padding-right:20px;
+    letter-spacing:2px;
+    background:url("../images/desktop/menuLine.png") no-repeat;
+    background-position:top;
+    cursor:pointer;
+}
+    .menuList:hover {
+        color: #ffffff;
+        background-position: bottom;
+    }
+.menuClose {
+    display: none;
+}
+    a {
+    text-decoration: none;
+    color: #fff;
+}
+.footer-pc {
+    position: relative;
+    width: 100%;
+    font-size: 11px;
+}
+.footer-mobile {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    line-height: 24px;
+    font-size: 12px;
+    
+    background: #020b0b;
+    color: #ffffff;
+    text-align: center;
+    display: none;
+    word-break: break-all;
+}
+
+.left {
+    padding-left: 40px;
+}
+.right {
+    float: right;
+    padding-right: 40px;
+    margin-top: -12px;
+    color: #b1a57e;
+}
+.copyRight {
+    position: relative;
+    margin-top: -5px;
+    width: 100%;
+    height: 80px;
+    font-size: 11px;
+}
+.copyText {
+    width: 70%;
+    background-color: #ff0000;
+    color: #ffffff;
+    position: absolute;
+    height: 80px;
+    padding-left: 40px;
+    line-height: 40px;
+}
+.copyLogo {
+    width: 30%;
+    background-color: #878789;
+    height: 80px;
+    position: absolute;
+    left:70%;
+    background-image:url("../images/desktop/logo.png");
+    background-repeat:no-repeat;
+   background-position-x:14%;
+   background-position-y:center;
+}
+
+.fbBtn {
+    position: fixed;
+    top: 90%;
+    left: 80px;
+    width: 35px;
+    height: 35px;
+    background: url("../images/desktop/btn-fb.png");
+    background-position: top;
+    cursor: pointer;
+}
+    .fbBtn:hover {
+        background-position: bottom;
+    }
+.menuBtn {
+    position: fixed;
+    width: 100%;
+    height: 52px;
+    background-image: url("../images/mobile/nav.png");
+    background-repeat: no-repeat;
+    background-color: #000;
+    background-position-y: center;
+    background-position-x: 92%;
+    top: 0;
+    left: 0;
+    display: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+}
+
+.warnings_pc {
+    background:#000;
+    display:block;
+    padding:10px;
+}
+.warnings_mobile {
+    background:#000;
+    display:none;
+     padding:10px;
+}
+
+@media screen and (max-width: 480px) {
+    .logo1 {
+        background: url("../images/mobile/TS-Logo.png");
+        width: 123px;
+        height: 43px;
+        top: 7px;
+        left: 4px;
+    }
+
+    .logo2 {
+        background: url("../images/mobile/Cathay-Logo.png");
+        width: 153px;
+        height: 43px;
+        top: 2px;
+        right: 92px;
+    }
+    .logo3 {
+        background: url("../images/mobile/AM-logo.png");
+        width: 117px;
+        height: 43px;
+        top: 60px;
+        right: 64%;
+    }
+    .fbBtn {
+        top: 60px;
+        left: 85%;
+    }
+    .menuBtn {
+        display:block;
+    }
+
+    .section1 {
+        background-image: url("../images/mobile/backgrounds/s1.jpg");
+    }
+
+    .section2 {
+        background-image: url("../images/mobile/backgrounds/s2.jpg");
+    }
+
+    .section3 {
+        background-image: url("../images/mobile/backgrounds/s3.jpg");
+    }
+
+    .section4 {
+        background-image: url("../images/mobile/backgrounds/s4.jpg");
+    }
+
+    .section6 {
+        background-image: url("../images/mobile/backgrounds/s6.jpg");
+    }
+
+
+    .section8 {
+        background-image: url("../images/mobile/backgrounds/s8.jpg");
+    }
+
+    .cont1 {
+        width: 300px;
+        height: 387px;
+        left: 50%;
+        top: 42%;
+        transform: translate(-50%,-50%);
+        background: url("../images/mobile/badges/b1.png");
+    }
+
+    .cont1-btn1 {
+        width: 144px;
+        height: 36.5px;
+        left: 50%;
+        top: 110%;
+        transform: translate(-144px);
+        background: url("../images/mobile/btn-play.png");
+    }
+
+    .cont1-btn2 {
+        width: 144px;
+        height: 36.5px;
+        left: 50%;
+        top: 110%;
+        background: url("../images/mobile/btn-now.png");
+    }
+
+    .cont2 {
+        width: 300px;
+        height: 314px;
+        left: 50%;
+        top: 55%;
+        transform: translate(-50%,-50%);
+        background: url("../images/mobile/badges/b2.png");
+    }
+
+    .cont2-btn1 {
+        width: 144px;
+        height: 36.5px;
+        left: 50%;
+        top: 108%;
+        transform: translate(-144px);
+        background: url("../images/mobile/btn-more.png");
+    }
+
+    .cont2-btn2 {
+        width: 144px;
+        height: 36.5px;
+        left: 50%;
+        top: 108%;
+        background: url("../images/mobile/btn-now.png");
+    }
+
+    .cont3 {
+        width: 300px;
+        height: 326px;
+        left: 50%;
+        top: 45%;
+        transform: translate(-50%,-50%);
+        background: url("../images/mobile/badges/b3.png");
+    }
+
+    .cont3-btn1 {
+        width: 144px;
+        height: 36.5px;
+        left: 50%;
+        top: 110%;
+        transform: translate(-144px);
+        background: url("../images/mobile/btn-more.png");
+    }
+
+    .cont3-btn2 {
+        width: 144px;
+        height: 36.5px;
+        left: 50%;
+        top: 110%;
+        background: url("../images/mobile/btn-now.png");
+    }
+
+    .cont4 {
+        width: 300px;
+        height: 347px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        background: url("../images/mobile/badges/b4.png");
+    }
+
+    .cont4-btn1 {
+        width: 144px;
+        height: 36.5px;
+        left: 50%;
+        top: 110%;
+        transform: translate(-144px);
+        background: url("../images/mobile/btn-more.png");
+    }
+
+    .cont4-btn2 {
+        width: 144px;
+        height: 36.5px;
+        left: 50%;
+        top: 110%;
+        background: url("../images/mobile/btn-now.png");
+    }
+
+    .cont5-1 {
+        width: 100%;
+        height: 31%;
+        background-image: url("../images/mobile/backgrounds/s5-1.jpg");
+    }
+
+    .cont5-text1 {
+        width: 262px;
+        height: 30px;
+        left: 8%;
+        top: 55%;
+        background: url("../images/mobile/badges/b5-1.png");
+    }
+
+    .cont5-btn1 {
+        width: 144px;
+        height: 36.5px;
+        left: 8%;
+        top: 76%;
+        background: url("../images/mobile/btn-now.png");
+    }
+
+    .cont5-2 {
+        width: 100%;
+        height: 23%;
+        background-image: url("../images/mobile/backgrounds/s5-2.jpg");
+    }
+
+    .cont5-text2 {
+        width: 194px;
+        height: 42px;
+        left: 32%;
+        bottom: 35%;
+        background: url("../images/mobile/badges/b5-2.png");
+    }
+
+    .cont5-btn2 {
+        width: 108px;
+        height: 28px;
+        left: 21%;
+        bottom: 10%;
+        background: url("../images/mobile/btn-more-sm.png");
+    }
+
+    .cont5-3 {
+        width: 100%;
+        height: 23%;
+        background-image: url("../images/mobile/backgrounds/s5-3.jpg");
+    }
+
+    .cont5-text3 {
+        width: 143px;
+        height: 43px;
+        left: 26%;
+        bottom: 35%;
+        background: url("../images/mobile/badges/b5-3.png");
+    }
+
+    .cont5-btn3 {
+        width: 108px;
+        height: 28px;
+        left: 21%;
+        bottom: 10%;
+        background: url("../images/mobile/btn-more-sm.png");
+    }
+
+    .cont5-4 {
+        width: 100%;
+        height: 23%;
+        background-image: url("../images/mobile/backgrounds/s5-4.jpg");
+    }
+
+    .cont5-text4 {
+        width: 143px;
+        height: 43px;
+        left: 26%;
+        bottom: 35%;
+        background: url("../images/mobile/badges/b5-4.png");
+    }
+
+    .cont5-btn4 {
+        width: 108px;
+        height: 28px;
+        left: 21%;
+        bottom: 10%;
+        background: url("../images/mobile/btn-more-sm.png");
+    }
+
+
+    .cont6 {
+        width: 300px;
+        height: 191px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        background: url("../images/mobile/badges/b6.png");
+    }
+
+    .cont6-btn1 {
+        width: 144px;
+        height: 36.5px;
+        left: 50%;
+        top: 155%;
+        transform: translate(-144px);
+        background: url("../images/mobile/btn-more.png");
+    }
+
+    .cont6-btn2 {
+        width: 144px;
+        height: 36.5px;
+        left: 50%;
+        top: 155%;
+        background: url("../images/mobile/btn-now.png");
+    }
+
+    .cont7-1 {
+        width: 100%;
+        height: 20%;
+        background-image: url("../images/mobile/backgrounds/s7-1.jpg");
+    }
+    .cont7-click {
+        font-size: 14px;
+        left: 8%;
+        bottom: 10%;
+    }
+    .cont7-text1 {
+        width: 220px;
+        height: 16px;
+        left: 8%;
+        bottom: 30%;
+        background: url("../images/mobile/badges/b7-1.png");
+    }
+
+    .cont7-2 {
+        width: 100%;
+        height: 20%;
+        background-image: url("../images/mobile/backgrounds/s7-2.jpg");
+    }
+
+    .cont7-text2 {
+        width: 190px;
+        height: 39px;
+        left: 8%;
+        bottom: 30%;
+        background: url("../images/mobile/badges/b7-2.png");
+    }
+
+    .cont7-3 {
+        width: 100%;
+        height: 20%;
+        background-image: url("../images/mobile/backgrounds/s7-3.jpg");
+    }
+
+    .cont7-text3 {
+        width: 92px;
+        height: 39px;
+        left: 8%;
+        bottom: 30%;
+        background: url("../images/mobile/badges/b7-3.png");
+    }
+
+    .cont7-4 {
+        width: 50%;
+        height: 20%;
+        background-image: url("../images/mobile/backgrounds/s7-4.jpg");
+    }
+
+    .cont7-text4 {
+        width: 99px;
+        height: 16px;
+        left: 8%;
+        bottom: 30%;
+        background: url("../images/mobile/badges/b7-4.png");
+    }
+
+    .cont7-5 {
+        width: 50%;
+        height: 20%;
+        background-image: url("../images/mobile/backgrounds/s7-5.jpg");
+    }
+
+    .cont7-text5 {
+        width: 138px;
+        height: 17px;
+        left: 8%;
+        bottom: 30%;
+        background: url("../images/mobile/badges/b7-5.png");
+    }
+
+    .cont7-6 {
+        width: 50%;
+        height: 20%;
+        background-image: url("../images/mobile/backgrounds/s7-6.jpg");
+    }
+
+    .cont7-text6 {
+        width: 99px;
+        height: 38px;
+        left: 8%;
+        bottom: 30%;
+        background: url("../images/mobile/badges/b7-6.png");
+    }
+    .cont7-7 {
+        width: 50%;
+        height: 20%;
+        background-image: url("../images/mobile/backgrounds/s7-7.jpg");
+    }
+
+    .cont7-text7 {
+        width: 82px;
+        height: 16px;
+        left: 8%;
+        bottom: 30%;
+        background: url("../images/mobile/badges/b7-7.png");
+    }
+
+    .cont8 {
+        width: 300px;
+        height: 390px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        background: url("../images/mobile/badges/b8.png");
+    }
+
+    .cont8-btn1 {
+        width: 144px;
+        height: 36.5px;
+        left: 50%;
+        top: 110%;
+        transform: translate(-144px);
+        background: url("../images/mobile/btn-more.png");
+    }
+
+    .cont8-btn2 {
+        width: 144px;
+        height: 36.5px;
+        left: 50%;
+        top: 110%;
+        background: url("../images/mobile/btn-now.png");
+    }
+
+    .menu {
+        display:none;
+        width:80%;
+        height:100%;
+        background: -webkit-linear-gradient(#020b0b,#626a6a);
+        background: -o-linear-gradient(#020b0b,#626a6a);
+        background: -moz-linear-gradient(#020b0b,#626a6a);
+        background: linear-gradient(#020b0b,#626a6a);
+    }
+    .menuBox {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translate(0,-50%);
+    }
+    .menuClose {
+        display: block;
+        width: 30px;
+        height: 30px;
+        background: url("../images/mobile/menuClose.png");
+        position:absolute;
+        top:20px;
+        right:20px;
+    }
+
+    
+
+    .cardMainCont {
+        width: 300px;
+        height: 8699px;
+        background: url("../images/mobile/contents/c1.png");
+        left: 50%;
+    }
+
+    .cardCont2 {
+        width: 300px;
+        height: 2188px;
+        background: url("../images/mobile/contents/c2.png");
+        left: 50%;
+    }
+
+    .cardCont3 {
+        width: 300px;
+        height: 5267px;
+        background: url("../images/mobile/contents/c3.png");
+        left: 50%;
+    }
+    .cardCont4 {
+        width: 300px;
+        height: 1075px;
+        background: url("../images/mobile/contents/c4.png");
+        left: 50%;
+    }
+    .cardCont5-1 {
+        width: 300px;
+        height: 4193px;
+        background: url("../images/mobile/contents/c5-1.png");
+        left: 50%;
+    }
+    .cardCont5-2 {
+        width: 300px;
+        height: 3730px;
+        background: url("../images/mobile/contents/c5-2.png");
+        left: 50%;
+    }
+    .cardCont5-3 {
+        width: 300px;
+        height: 3190px;
+        background: url("../images/mobile/contents/c5-3.png");
+        left: 50%;
+    }
+
+    .cardCont6 {
+        width: 300px;
+        height: 3726px;
+        background: url("../images/mobile/contents/c6.png");
+        left: 50%;
+    }
+    .cardCont7-1 {
+        width: 300px;
+        height: 2339px;
+        background: url("../images/mobile/contents/c7-1.png");
+        left: 50%;
+    }
+    .cardCont7-2 {
+        width: 300px;
+        height: 1647px;
+        background: url("../images/mobile/contents/c7-2.png");
+        left: 50%;
+    }
+    .cardCont7-3 {
+        width: 300px;
+        height: 809px;
+        background: url("../images/mobile/contents/c7-3.png");
+        left: 50%;
+    }
+    .cardCont7-4 {
+        width: 300px;
+        height:2075px;
+        background: url("../images/mobile/contents/c7-4.png");
+        left: 50%;
+    }
+    .cardCont7-5 {
+        width: 300px;
+        height: 790px;
+        background: url("../images/mobile/contents/c7-5.png");
+        left: 50%;
+    }
+    .cardCont7-6 {
+        width: 300px;
+        height: 2580px;
+        background: url("../images/mobile/contents/c7-6.png");
+        left: 50%;
+    }
+    .cardCont7-7 {
+        width: 300px;
+        height: 683px;
+        background: url("../images/mobile/contents/c7-7.png");
+        left: 50%;
+    }
+    .cardCont8 {
+        width: 300px;
+        height: 5685px;
+        background: url("../images/mobile/contents/c8.png");
+        left: 50%;
+    }
+
+    .linkBtn {
+        left: 50%;
+        top: 410px;
+        width: 144px;
+        height: 36px;
+        background: url("../images/mobile/btn-now.png");
+        transform: translate(-50%);
+    }
+    .contLink2 {
+        width: 191px;
+        height: 34px;
+        top: 870px;
+        background: url("../images/mobile/btn-sale-mobile.png");
+    }
+    .contLink5-2-1 {
+        width: 260px;
+        height: 34px;
+        top: 660px;
+    }
+
+    .contLink5-2-2 {
+        top: 704px;
+    }
+    .contLink5-3 {
+        width: 260px;
+        top: 755px;
+    }
+    .contLink6 {
+        width: 190px;
+        height: 37px;
+        top: 890px;
+        background: url("../images/mobile/btn-ticket.png");
+    }
+    .contLink7-5-1 {
+        width: 260px;
+        top: 503px;
+    }
+
+    .contLink7-5-2 {
+        width: 260px;
+        top: 770px;
+    }
+    .contLink7-6 {
+        width: 260px;
+        top: 696px;
+    }
+    .contLink8 {
+        top: 3148px;
+        background: url("../images/desktop/btn-service.png");
+    }
+
+    .boxClose {
+        position: fixed;
+        width: 100%;
+        height: 40px;
+    }
+
+
+    .closeArrow {
+        position: absolute;
+        background-image: url("../images/mobile/arrow-left.png");
+        width: 20px;
+        height: 16px;
+        left: 10px;
+        top: 10px;
+        transform: translate(0,0);
+    }
+
+    .footer-pc {
+        display: none;
+    }
+    .copyRight {
+        display: none;
+    }
+    .footer-mobile {
+        display: block;
+    }
+    .warnings_pc {
+        display:none;
+    }
+    .warnings_mobile {
+        display:block;
+    }
+}
